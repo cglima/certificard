@@ -1,96 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Certificard - Portfólio - #imersaodev</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
+      <div class="header bg100 c800">
         <header class="cabecalho">
-            <div class="perfil">
-                <img class="perfil-foto" src="https://github.com/cglima.png" />
-                <div class="titulo">
-                    <h1>Cassiana Gabriela Lima Barreto</h1>
-                    <h3>Engenheira Biomédica e aprendiz de Ciência de Dados #imersaodev</h3>
-                </div>
+          <div class="perfil">
+            <img class="perfil-foto" src="https://github.com/cglima.png" />
+            <div class="titulo">
+              <h1>Cassiana Gabriela Lima Barreto</h1>
+              <h3>
+                Engenheira Biomédica e aprendiz de Ciência de Dados #imersaodev
+              </h3>
             </div>
-            <div class="tema">
-                <button onclick="mudaTema()"> Alterar Tema</button>
-            </div>
+          </div>
+          <div class="tema">
+            <button onclick="mudaTema()">💡</button>
+          </div>
         </header>
+      </div>
 
-        <main class="projetos">
-            <ul class="projetos-titulo">Projetos<ul>
-                <li class="projetos-item">
-                    <p><a href="https://codepen.io/cglima/pen/YzLXGLa">🔢 Calculadora de média - E aí, passou de ano?</a></p>
-                    <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result"
-                        data-slug-hash="YzLXGLa" data-user="cglima"
-                        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/cglima/pen/YzLXGLa">
-                        Passou de ano?</a> by Cassiana Gabriela Lima Barreto (<a href="https://codepen.io/cglima">@cglima</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                </li>
-                <li class="projetos-item">
-                    <p><a href="https://codepen.io/cglima/pen/OJZyEbq">💲 Conversor de moeda</a></p>
-                    <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result"
-                        data-slug-hash="OJZyEbq" data-user="cglima"
-                        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/cglima/pen/OJZyEbq">
-                                Conversores</a> by Cassiana Gabriela Lima Barreto (<a
-                                href="https://codepen.io/cglima">@cglima</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                </li>
-                <li class="projetos-item">
-                    <p><a href="https://codepen.io/cglima/pen/vYjGapP">❔ Mentalista - Adivinhe o número</a></p>
-                    <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result"
-                    data-slug-hash="vYjGapP" data-user="cglima"
-                    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/cglima/pen/vYjGapP">
-                            Mentalista - ID3</a> by Cassiana Gabriela Lima Barreto (<a href="https://codepen.io/cglima">@cglima</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                </li>
-                <li class="projetos-item">
-                    <p><a href="https://codepen.io/cglima/pen/bGMpmzJ">🎮 JogosFlix - Biblioteca de jogos preferidos</a></p>
-                    <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result"
-                        data-slug-hash="bGMpmzJ" data-user="cglima"
-                        style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/cglima/pen/bGMpmzJ">
-                                Aluraflix Jogos</a> by Cassiana Gabriela Lima Barreto (<a
-                                href="https://codepen.io/cglima">@cglima</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                </li>
-                <li class="projetos-item">
-                    <p><a href="https://codepen.io/cglima/pen/MWGJXgv">📎 Tabela de Classificação</a></p>
-                    <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result"
-                    data-slug-hash="MWGJXgv" data-user="cglima"
-                    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/cglima/pen/MWGJXgv">
-                            Tabela de classificação</a> by Cassiana Gabriela Lima Barreto (<a href="https://codepen.io/cglima">@cglima</a>)
-                            on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                </li>
-                <li class="projetos-item">
-                    <p><a href="https://codepen.io/cglima/pen/abGJPJp">🦸‍♀️ SuperTrunfo Dev </a></p>
-                    <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="abGJPJp" data-user="cglima" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                        <span>See the Pen <a href="https://codepen.io/cglima/pen/abGJPJp">
-                        Super Trunfo - Dev</a> by Cassiana Gabriela Lima Barreto (<a href="https://codepen.io/cglima">@cglima</a>)
-                        on <a href="https://codepen.io">CodePen</a>.</span>
-                    </p>
-                </li>
-            </ul>
+      <div class="main bg200 c900">
+        <main>
+          <h1 class="projetos-titulo">PROJETOS</h1>
+          <ul class="projetos">
+            <li class="projetos-item">
+              <h2>
+                <a href="https://codepen.io/cglima/pen/YzLXGLa"
+                  >🔢 Calculadora de média
+                </a>
+              </h2>
+              <p>
+                E aí, passou de ano? Descubra se você foi aprovado! <br />
+                Foi proposto pelo time da imersão dev da Alura, fazer uma
+                calculadora de média que informasse ao usuário se ele passou de
+                ano ou não. Para o cálculo da média das notas do aluno foi
+                considerado as notas dos 4 bimestres.
+              </p>
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="result"
+                data-slug-hash="YzLXGLa"
+                data-user="cglima"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/cglima/pen/YzLXGLa">
+                    Passou de ano?</a
+                  >
+                  by Cassiana Gabriela Lima Barreto (<a
+                    href="https://codepen.io/cglima"
+                    >@cglima</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+            </li>
+            <li class="projetos-item">
+              <h2>
+                <a href="https://codepen.io/cglima/pen/OJZyEbq"
+                  >💲 Conversor de moeda</a
+                >
+              </h2>
+              <p>
+                Descubra os respectivos valores para cada conversão! <br />
+                Foi proposto pelo time da imersao dev da Alura, criar um
+                conversor de moedas,onde fosse possível transformar em reais as
+                moedas que estavam com o preço em dólares, euros, libras e
+                bitcoin. Além disso, um conversor de qulimetros em Anos-luz, por
+                fim, o classico conversor de temperatura (Celsius, Farenheit e
+                Kelvin)
+              </p>
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="result"
+                data-slug-hash="OJZyEbq"
+                data-user="cglima"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/cglima/pen/OJZyEbq">
+                    Conversores</a
+                  >
+                  by Cassiana Gabriela Lima Barreto (<a
+                    href="https://codepen.io/cglima"
+                    >@cglima</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+            </li>
+            <li class="projetos-item">
+              <h2>
+                <a href="https://codepen.io/cglima/pen/vYjGapP"
+                  >❔ Mentalista</a
+                >
+              </h2>
+              <p>
+                Descubra o número! <br />
+                Foi proposto pelo time da imersao dev da Alura, criar um jogo de
+                adivinhação, onde o programa escolhe um número aleatório e
+                usuário tenta adivinhar.
+              </p>
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="result"
+                data-slug-hash="vYjGapP"
+                data-user="cglima"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/cglima/pen/vYjGapP">
+                    Mentalista - ID3</a
+                  >
+                  by Cassiana Gabriela Lima Barreto (<a
+                    href="https://codepen.io/cglima"
+                    >@cglima</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+            </li>
+            <li class="projetos-item">
+              <h2>
+                <a href="https://codepen.io/cglima/pen/bGMpmzJ"
+                  >🎮 JogosFlix
+                </a>
+              </h2>
+              <p>
+                Biblioteca de Jogos! <br />
+                Foi proposto pelo time da imersao dev da Alura, exibir os
+                pôsters de todos os nossos filmes preferidos na tela do
+                navegador. No meu caso, escolhi fazer o Jogoflix, uma biblioteca
+                de jogos que eu mais gosto de diversos console. Aproveite e
+                insira os seus jogos favoritos para aumentarmos o acervo.
+              </p>
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="result"
+                data-slug-hash="bGMpmzJ"
+                data-user="cglima"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/cglima/pen/bGMpmzJ">
+                    Aluraflix Jogos</a
+                  >
+                  by Cassiana Gabriela Lima Barreto (<a
+                    href="https://codepen.io/cglima"
+                    >@cglima</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+            </li>
+            <li class="projetos-item">
+              <h2>
+                <a href="https://codepen.io/cglima/pen/MWGJXgv"
+                  >📎 Tabela de Classificação</a
+                >
+              </h2>
+              <p>
+                Quem é o vencedor? <br />
+                Foi proposto pelo time da imersao dev da Alura, criar uma tabela
+                de classificação, com o intuito de utilizar essse programa em
+                partidas do tipo (pedra,papel,tesoura) e todas aquelas que podem
+                se beneficiar com esta tabela de classificação.
+              </p>
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="result"
+                data-slug-hash="MWGJXgv"
+                data-user="cglima"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/cglima/pen/MWGJXgv">
+                    Tabela de classificação</a
+                  >
+                  by Cassiana Gabriela Lima Barreto (<a
+                    href="https://codepen.io/cglima"
+                    >@cglima</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+            </li>
+            <li class="projetos-item">
+              <h2>
+                <a href="https://codepen.io/cglima/pen/abGJPJp"
+                  >🃏 SuperTrunfo
+                </a>
+              </h2>
+              <p>
+                Super Trunfo - Dev <br />
+                Foi proposto pelo time da imersao dev da Alura, criar um jogo de
+                cartas chamado Trunfo. Escolhi fazer um jogo com alguns
+                profissionais da área de TI. Espero que gostem
+              </p>
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="dark"
+                data-default-tab="result"
+                data-slug-hash="abGJPJp"
+                data-user="cglima"
+                style="
+                height: 300px;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid;
+                margin: 1em 0;
+                padding: 1em;
+                "
+            >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/cglima/pen/abGJPJp">
+                    Super Trunfo - Dev</a
+                  >
+                  by Cassiana Gabriela Lima Barreto (<a
+                    href="https://codepen.io/cglima"
+                    >@cglima</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+            </li>
+          </ul>
         </main>
+      </div>
 
+      <div class="sidebar bg200 c900">
+        <h2 class="projetos-titulo">CONQUISTAS</h2>
+
+        <img class="image" src="https://i.imgur.com/KtaKfrV.png" />
+
+        <img class="imagem" src="https://i.imgur.com/GAs5HOq.png" />
+
+        <img class="image" src="https://i.imgur.com/22JzFyw.png" />
+
+        <img class="image" src="https://i.imgur.com/5F0HZdj.png" />
+
+        <img class="image" src="https://i.imgur.com/ruCeODF.png" />
+
+        <img class="image" src="https://i.imgur.com/pCaBKny.png" />
+
+      </div>
+
+      <div class="footer bg100 c800">
+        <h2>Redes sociais</h2>
+
+        <a href="https://github.com/cglima"
+          ><img
+            class="footer-image"
+            src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+          />
+        </a>
+
+        <a href="https://www.linkedin.com/in/cassianalima/"
+          ><img
+            class="footer-image"
+            src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+          />
+        </a>
+
+        <a href="https://twitter.com/cianaglima">
+          <img
+            class="footer-image"
+            src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png"/>
+        </a>
     </div>
-    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-    <script src="./script.js"></script>
+    </div>
 
-</body>
+    <script
+      async
+      src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
